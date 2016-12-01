@@ -24,7 +24,7 @@ function Weather(cities) {
     } else {
       if (frameCount%10 === 0) { 
         fill(200, 1);
-        rect(lon, lat + 20, 120, 80);
+        rect(lon, lat + 20, 140, 80);
       }
     }
   }
@@ -34,7 +34,7 @@ function Weather(cities) {
     var temp = cities[index].main.temp;
 
     fill(255, 20); 
-    rect(posx, posy+20, 120, 80); // text background rect
+    rect(posx, posy+20, 140, 80); // text background rect
     fill(150); 
     text(info, posx+2, posy + 40); // show weather description
     
